@@ -7,7 +7,7 @@
 // Player component
 struct Player
 {
-	bool isAlive = true;
+
 };
 
 // Eagles have a hard shell
@@ -28,11 +28,6 @@ struct Motion {
 	float angle = 0;
 	vec2 velocity = { 0, 0 };
 	vec2 scale = { 10, 10 };
-
-	// advanced
-	bool advancedMode = false;
-	vec2 acceleration = { 0, 0 };
-	float terminalVelocity = 250;
 };
 
 // Stucture to store collision information
@@ -91,9 +86,12 @@ struct Mesh
 	std::vector<uint16_t> vertex_indices;
 };
 
+// Light Up Component
 struct LightUp {
 	float counter_ms = 3000;
 };
+
+
 /**
  * The following enumerators represent global identifiers refering to graphic
  * assets. For example TEXTURE_ASSET_ID are the identifiers of each texture

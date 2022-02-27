@@ -12,6 +12,7 @@ void RenderSystem::drawTexturedMesh(Entity entity,
 	// specification for more info Incrementally updates transformation matrix,
 	// thus ORDER IS IMPORTANT
 	Transform transform;
+
 	transform.translate(motion.position);
 	transform.scale(motion.scale);
 	transform.rotate(motion.angle);
@@ -86,26 +87,22 @@ void RenderSystem::drawTexturedMesh(Entity entity,
 
 		if (render_request.used_effect == EFFECT_ASSET_ID::CHICKEN)
 		{
-			// Light up?
-			if (registry.lightupTimer.has(entity)) {
-				GLint light_up_uloc = glGetUniformLocation(program, "light_up");
-				assert(light_up_uloc >= 0);
-
+			GLint light_up_uloc = glGetUniformLocation(program, "light_up");
+			assert(light_up_uloc >= 0);
+			if (registry.lightUp.has(entity)) {
 				// !!! TODO A1: set the light_up shader variable using glUniform1i,
 				// similar to the glUniform1f call below. The 1f or 1i specified the type, here a single int.
 				glUniform1i(light_up_uloc, 1);
-				gl_has_errors();
 			}
 			else {
-				GLint light_up_uloc = glGetUniformLocation(program, "light_up");
-				assert(light_up_uloc >= 0);
-
-				// !!! TODO A1: set the light_up shader variable using glUniform1i,
-				// similar to the glUniform1f call below. The 1f or 1i specified the type, here a single int.
+				//printf("%s", "IM SAD SAD SAD);
 				glUniform1i(light_up_uloc, 0);
-				gl_has_errors();
 			}
+			gl_has_errors();
+
+			
 		}
+		
 	}
 	else
 	{

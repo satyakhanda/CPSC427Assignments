@@ -14,7 +14,7 @@
 using Clock = std::chrono::high_resolution_clock;
 
 // Entry point
-int main()
+int main(int argc, char* argv[])
 {
 	// Global systems
 	WorldSystem world;

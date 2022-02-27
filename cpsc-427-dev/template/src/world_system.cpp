@@ -7,15 +7,17 @@
 #include <sstream>
 
 #include "physics_system.hpp"
+#include <iostream>
 
 // Game configuration
 const size_t MAX_EAGLES = 15;
+const size_t MAX_FALCONS = 15;
 const size_t MAX_BUG = 5;
 const size_t EAGLE_DELAY_MS = 2000 * 3;
 const size_t BUG_DELAY_MS = 5000 * 3;
-const float MAX_VELOCITY = 250.f;
-bool advancedMode = false;
-bool modeChanged = false;
+const float VELOCITY_FLAG = 200.f;
+
+bool lock = false;
 
 // Create the bug world
 WorldSystem::WorldSystem()
@@ -128,7 +130,6 @@ void WorldSystem::init(RenderSystem* renderer_arg) {
 
 // Update our game world
 bool WorldSystem::step(float elapsed_ms_since_last_update) {
-
 	// Updating window title with points
 	std::stringstream title_ss;
 	title_ss << "Points: " << points;
@@ -158,18 +159,17 @@ bool WorldSystem::step(float elapsed_ms_since_last_update) {
 		// Reset timer
 		next_eagle_spawn = (EAGLE_DELAY_MS / 2) + uniform_dist(rng) * (EAGLE_DELAY_MS / 2);
 		// Create eagle with random initial position
-        createEagle(renderer, vec2(50.f + uniform_dist(rng) * (window_width_px - 100.f), -150.f));
+        createEagle(renderer, vec2(50.f + uniform_dist(rng) * (window_width_px - 100.f), 0.f));
 	}
 
 	// Spawning new bug
 	next_bug_spawn -= elapsed_ms_since_last_update * current_speed;
 	if (registry.eatables.components.size() <= MAX_BUG && next_bug_spawn < 0.f) {
-		// !!!  TODO A1: Create new bug with createBug({0,0}), as for the Eagles above
+		
+		next_bug_spawn = (EAGLE_DELAY_MS / 2) + uniform_dist(rng) * (EAGLE_DELAY_MS / 2);
 		next_bug_spawn = (BUG_DELAY_MS / 2) + uniform_dist(rng) * (BUG_DELAY_MS / 2);
-		// Create eagle with random initial position
-		createBug(renderer, vec2(50.f + uniform_dist(rng) * (window_width_px - 100.f), -150.f));
+		createBug(renderer, vec2(50.f + uniform_dist(rng) * (window_width_px - 100.f), 0.f));
 	}
-
 
 	// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	// TODO A3: HANDLE EGG SPAWN HERE
@@ -179,8 +179,6 @@ bool WorldSystem::step(float elapsed_ms_since_last_update) {
 	// Processing the chicken state
 	assert(registry.screenStates.components.size() <= 1);
     ScreenState &screen = registry.screenStates.components[0];
-	// Move chicken down if dead, also change color
-
 
     float min_counter_ms = 3000.f;
 	for (Entity entity : registry.deathTimers.entities) {
@@ -190,8 +188,7 @@ bool WorldSystem::step(float elapsed_ms_since_last_update) {
 		if(counter.counter_ms < min_counter_ms){
 		    min_counter_ms = counter.counter_ms;
 		}
-		Motion& motion = registry.motions.get(player_chicken);
-		motion.position.y += MAX_VELOCITY * (elapsed_ms_since_last_update / 1000);
+
 		// restart the game once the death timer expired
 		if (counter.counter_ms < 0) {
 			registry.deathTimers.remove(entity);
@@ -200,32 +197,22 @@ bool WorldSystem::step(float elapsed_ms_since_last_update) {
 			return true;
 		}
 	}
-
-	// !!! TODO A1: update LightUp timers and remove if time drops below zero, similar to the death counter
-	for (Entity entity : registry.lightupTimer.entities) {
-		LightUp& lightUps = registry.lightupTimer.get(entity);
-		lightUps.counter_ms -= elapsed_ms_since_last_update;
-
-		if (lightUps.counter_ms < 0) {
-			registry.lightupTimer.remove(entity);
-		}
-
-	}
-
-	if (modeChanged == true) {
-		Motion& chickenMotion = registry.motions.get(player_chicken);
-		if (advancedMode == true) {
-			chickenMotion.advancedMode = true;
-		}
-		else {
-			chickenMotion.advancedMode = false;
-		}
-	}
 	// reduce window brightness if any of the present chickens is dying
 	screen.darken_screen_factor = 1 - min_counter_ms / 3000;
 
+	// !!! TODO A1: update LightUp timers and remove if time drops below zero, similar to the death counter
+	for (Entity entity : registry.lightUp.entities) {
+		// progress timer
+		LightUp& counter = registry.lightUp.get(entity);
+		counter.counter_ms -= elapsed_ms_since_last_update;
+
+		if (counter.counter_ms < 0) {
+			registry.lightUp.remove(entity);
+		}
+	}
 
 
+	
 	return true;
 }
 
@@ -249,6 +236,8 @@ void WorldSystem::restart_game() {
 	// Create a new chicken
 	player_chicken = createChicken(renderer, { window_width_px/2, window_height_px - 200 });
 	registry.colors.insert(player_chicken, {1, 0.8f, 0.8f});
+	
+	lock = false;
 
 	// !! TODO A3: Enable static eggs on the ground
 	// Create eggs on the floor for reference
@@ -281,17 +270,17 @@ void WorldSystem::handle_collisions() {
 			// Checking Player - Deadly collisions
 			if (registry.deadlys.has(entity_other)) {
 				// initiate death unless already dying
+		
 				if (!registry.deathTimers.has(entity)) {
 					// Scream, reset timer, and make the chicken sink
 					registry.deathTimers.emplace(entity);
 					Mix_PlayChannel(-1, chicken_dead_sound, 0);
 
-					// change the chicken orientation and color on death
-					Motion& motion = registry.motions.get(entity);
-					motion.angle = M_PI;
-					motion.velocity = { 0.f, 0.f };
-					vec3& chickenColor = registry.colors.get(entity);
-					chickenColor = { 1.0f, 0.f, 0.f };
+					Motion& chicken_motion = registry.motions.get(player_chicken);
+					chicken_motion.angle = M_PI/2;
+					chicken_motion.velocity.y = 100*(current_speed+1);
+					lock = true;
+					registry.colors.get(player_chicken) = vec3(0.8f, 0, 0);
 				}
 			}
 			// Checking Player - Eatable collisions
@@ -301,9 +290,8 @@ void WorldSystem::handle_collisions() {
 					registry.remove_all_components_of(entity_other);
 					Mix_PlayChannel(-1, chicken_eat_sound, 0);
 					++points;
-
 					// !!! TODO A1: create a new struct called LightUp in components.hpp and add an instance to the chicken entity by modifying the ECS registry
-					registry.lightupTimer.emplace(entity);
+					registry.lightUp.emplace(entity);
 				}
 			}
 		}
@@ -318,7 +306,6 @@ bool WorldSystem::is_over() const {
 	return bool(glfwWindowShouldClose(window));
 }
 
-// On key callback
 void WorldSystem::on_key(int key, int, int action, int mod) {
 	// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	// TODO A1: HANDLE CHICKEN MOVEMENT HERE
@@ -326,7 +313,48 @@ void WorldSystem::on_key(int key, int, int action, int mod) {
 	// action can be GLFW_PRESS GLFW_RELEASE GLFW_REPEAT
 	// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-	// Resetting game
+	if (lock) return;
+	Motion& motion = registry.motions.get(player_chicken);
+
+	switch (action) {
+		case GLFW_PRESS:
+			switch (key) {
+				case GLFW_KEY_LEFT:
+					motion.velocity.x = VELOCITY_FLAG;
+					break;
+				case GLFW_KEY_RIGHT:
+					motion.velocity.x = -VELOCITY_FLAG;
+					break;
+				case GLFW_KEY_UP:
+					motion.velocity.x = VELOCITY_FLAG;
+					motion.velocity.y = VELOCITY_FLAG;
+					break;
+				case GLFW_KEY_DOWN:
+					motion.velocity.x = -VELOCITY_FLAG;
+					motion.velocity.y = -VELOCITY_FLAG;
+					break;
+			}
+			break;
+		case GLFW_RELEASE:
+			switch (key) {
+				case GLFW_KEY_LEFT:
+					motion.velocity.x = 0;
+					break;
+				case GLFW_KEY_RIGHT:
+					motion.velocity.x = 0;
+					break;
+				case GLFW_KEY_UP:
+					motion.velocity.x = 0;
+					motion.velocity.y = 0;
+					break;
+				case GLFW_KEY_DOWN:
+					motion.velocity.x = 0;
+					motion.velocity.y = 0;
+					break;
+			}
+	}
+
+		// Resetting game
 	if (action == GLFW_RELEASE && key == GLFW_KEY_R) {
 		int w, h;
 		glfwGetWindowSize(window, &w, &h);
@@ -353,127 +381,14 @@ void WorldSystem::on_key(int key, int, int action, int mod) {
 	}
 	current_speed = fmax(0.f, current_speed);
 
-	// Advanced Mode and Basic Mode Toggling
-	if (action == GLFW_PRESS && key == GLFW_KEY_A) {
-		advancedMode = true;
-		modeChanged = true;
-	}
-
-	if (action == GLFW_PRESS && key == GLFW_KEY_B) {
-		advancedMode = false;
-		modeChanged = true;
-	}
-	// Handling Character Movement - all other input handling should be done before this
-	if (registry.deathTimers.has(player_chicken)) {
-		return; //don't register movement if player is alive
-	}
-	Motion& motion = registry.motions.get(player_chicken);
-	if (key == GLFW_KEY_RIGHT) {
-		if (!motion.advancedMode) {
-			if (action == GLFW_PRESS) {
-				motion.velocity.x = -MAX_VELOCITY;
-			}
-			else if (action == GLFW_RELEASE) {
-				motion.velocity.x = 0;
-			}
-		}
-		else {
-			if (action == GLFW_PRESS) {
-				motion.acceleration.x = 20 * cos(motion.angle);
-				motion.acceleration.y = 20 * sin(motion.angle);
-			}
-			else if (action == GLFW_RELEASE) {
-				motion.acceleration.x = 0;
-				motion.acceleration.y = 0;
-			}
-		}
-	}
-
-	if (key == GLFW_KEY_LEFT) {
-		if (!motion.advancedMode) {
-			if (action == GLFW_PRESS) {
-				motion.velocity.x = MAX_VELOCITY;
-			}
-			else if (action == GLFW_RELEASE) {
-				motion.velocity.x = 0;
-			}
-		}
-		else {
-			if (action == GLFW_PRESS) {
-				motion.acceleration.x = 20 * cos(motion.angle);
-				motion.acceleration.y = 20 * sin(motion.angle);
-			}
-			else if (action == GLFW_RELEASE) {
-				motion.acceleration.x = 0;
-				motion.acceleration.y = 0;
-			}
-		}
-	}
-
-	if (key == GLFW_KEY_UP) {
-		if (!motion.advancedMode) {
-			if (action == GLFW_PRESS) {
-				// motion.velocity.y = -MAX_VELOCITY;
-				motion.velocity.x = MAX_VELOCITY;
-				motion.velocity.y = MAX_VELOCITY;
-			}
-			else if (action == GLFW_RELEASE) {
-				// motion.velocity.y = 0;
-				motion.velocity.x = 0;
-				motion.velocity.y = 0;
-			}
-		}
-		else {
-			if (action == GLFW_PRESS) {
-				motion.acceleration.x = 20 * cos(motion.angle) * -1;
-				motion.acceleration.y = 20 * sin(motion.angle);
-			}
-			else if (action == GLFW_RELEASE) {
-				motion.acceleration.x = 0;
-				motion.acceleration.y = 0;
-			}
-		}
-	}
-
-	if (key == GLFW_KEY_DOWN) {
-		if (motion.advancedMode) {
-			if (action == GLFW_PRESS) {
-				// motion.velocity.y = MAX_VELOCITY;
-				motion.velocity.x = -MAX_VELOCITY;
-				motion.velocity.y = -MAX_VELOCITY;
-			}
-			else if (action == GLFW_RELEASE) {
-				// motion.velocity.y = 0;
-				motion.velocity.x = 0;
-				motion.velocity.y = 0;
-			}
-		}
-		else {
-			if (action == GLFW_PRESS) {
-				motion.acceleration.x = 20 * cos(motion.angle);
-				motion.acceleration.y = 20 * sin(motion.angle);
-			}
-			else if (action == GLFW_RELEASE) {
-				motion.acceleration.x = 0;
-				motion.acceleration.y = 0;
-			}
-		}
-	}
-
 }
-
 void WorldSystem::on_mouse_move(vec2 mouse_position) {
 	// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	// TODO A1: HANDLE CHICKEN ROTATION HERE
 	// xpos and ypos are relative to the top-left of the window, the chicken's
 	// default facing direction is (1, 0)
 	// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-	
-	// use arctan to calculate rotation of chicken
-	if (registry.deathTimers.has(player_chicken)) {
-		return;
-	}
-	Motion& motion = registry.motions.get(player_chicken);
-	motion.angle = atan2(mouse_position.y - motion.position.y,  motion.position.x - mouse_position.x);
-
+	if (lock) return;
+	Motion& player_motion = registry.motions.get(player_chicken);
+	player_motion.angle = atan2(mouse_position.y - player_motion.position.y, player_motion.position.x - mouse_position.x);
 }

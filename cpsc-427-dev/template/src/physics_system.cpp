@@ -37,79 +37,22 @@ void PhysicsSystem::step(float elapsed_ms)
 		Motion& motion = motion_registry.components[i];
 		Entity entity = motion_registry.entities[i];
 		float step_seconds = elapsed_ms / 1000.f;
-		// (void)elapsed_ms; // placeholder to silence unused warning until implemented
 		
-		// Velocity is movement/second, multiply by number of seconds to get how much it has moved in the time
-		if (!motion.advancedMode) {
-			if (motion.angle == 0) {
-				motion.position.x += motion.velocity.x * step_seconds;
-				motion.position.y += motion.velocity.y * step_seconds;
+		if (motion.angle != 0) {
+			if (motion.velocity.y == 0) {
+				//printf("%s", "HERERE");
+				motion.position.x += motion.velocity.x * -1 * (cosf(motion.angle+M_PI/2)) * step_seconds;
+				motion.position.y += motion.velocity.x * (sinf(motion.angle+M_PI/2)) * step_seconds;
+			} else {
+				// printf("%s", "SCARY");
+				motion.position.x += motion.velocity.x * -1 * cosf(motion.angle) * step_seconds;
+				motion.position.y += motion.velocity.y * sinf(motion.angle) * step_seconds;
 			}
-			else {
-				if (motion.velocity.y != 0) {
-					motion.position.x += motion.velocity.x * step_seconds * -1 * cos(motion.angle);
-					motion.position.y += motion.velocity.y * step_seconds * sin(motion.angle);
-				}
-				else {
-					motion.position.x += motion.velocity.x * step_seconds * -1 * cos(motion.angle + M_PI / 2);
-					motion.position.y += motion.velocity.x * step_seconds * sin(motion.angle + M_PI / 2);
-				}
-
-			}
+		} else {
+			// printf("%s", "TIME");
+			motion.position.x += motion.velocity.x * step_seconds;
+			motion.position.y += motion.velocity.y * step_seconds;
 		}
-		else {
-			//float forceOfDrag = 0.5f * 1.525f * (motion.velocity.x * motion.velocity.x) * 2.f; // 0.525 is air density at STP in this universe
-			// float decelerationDueToDrag = forceOfDrag / 2; // a = F/m
-			//float dragDecel = motion.velocity.x * 0.0025f;
-			float dragDecelX = .011f * (motion.velocity.x * motion.velocity.x);
-			float dragDecelY = .011f * (motion.velocity.y * motion.velocity.y);
-			if (motion.velocity.x < 0) {
-				dragDecelX *= -1;
-			}
-			if (motion.velocity.y < 0) {
-				dragDecelY *= -1;
-			}
-			printf("X Coord: Velocity:%.5f Acceleration:%.5f Decelleration:%.5f\n", motion.velocity.x, motion.acceleration.x, dragDecelX);
-			printf("Y Coord: Velocity:%.5f Acceleration:%.5f Decelleration:%.5f\n", motion.velocity.y, motion.acceleration.y, dragDecelY);
-			if (motion.velocity.x <= motion.terminalVelocity) {
-				motion.velocity.x += (motion.acceleration.x * step_seconds) * 10;
-			}
-
-			if(motion.velocity.y <= motion.terminalVelocity) {
-				motion.velocity.y += (motion.acceleration.y * step_seconds) * 10;
-			}
-			if (motion.acceleration.x == 0) {
-				motion.velocity.x -= dragDecelX * step_seconds;
-			}
-			if (motion.acceleration.y == 0) {
-				motion.velocity.y -= dragDecelY * step_seconds;
-			}
-
-			//if (motion.velocity.x <= 0) {
-			//	motion.velocity.x = 0;
-			//}
-
-			//if (motion.velocity.y <= 0) {
-			//	motion.velocity.y = 0;
-			//}
-
-//			if (motion.angle == 0) {
-				motion.position.x += motion.velocity.x * step_seconds;
-				motion.position.y += motion.velocity.y * step_seconds;
-//			}
-			//else {
-			//	if (motion.velocity.y != 0) {
-			//		motion.position.x += motion.velocity.x * step_seconds * -1 * cos(motion.angle);
-			//		motion.position.y += motion.velocity.y * step_seconds * sin(motion.angle);
-			//	}
-			//	else {
-			//		motion.position.x += motion.velocity.x * step_seconds * -1 * cos(motion.angle + M_PI / 2);
-			//		motion.position.y += motion.velocity.x * step_seconds * sin(motion.angle + M_PI / 2);
-			//	}
-
-			//}
-		}
-		
 	}
 
 	// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
