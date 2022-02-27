@@ -1,0 +1,3 @@
+/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles/chicken.dir
+/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles/edit_cache.dir
+/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles/rebuild_cache.dir
