@@ -1,7 +1,7 @@
 CMakeFiles/chicken.dir/src/main.cpp.o: \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/main.cpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/gl3w/gl3w.h \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/gl3w/glcorearb.h \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/src/main.cpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/gl3w/gl3w.h \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/gl3w/glcorearb.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -788,7 +788,7 @@ CMakeFiles/chicken.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ratio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/climits \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/ai_system.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/src/ai_system.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iosfwd \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h \
@@ -823,8 +823,8 @@ CMakeFiles/chicken.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cassert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/functional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/tiny_ecs_registry.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/tiny_ecs.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/src/tiny_ecs_registry.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/src/tiny_ecs.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/unordered_map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__hash_table \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cmath \
@@ -833,8 +833,8 @@ CMakeFiles/chicken.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/typeindex \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/components.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/common.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/src/components.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/src/common.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/ios \
@@ -877,149 +877,149 @@ CMakeFiles/chicken.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip \
   /usr/local/include/GLFW/glfw3.h \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/vec2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_bool2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/qualifier.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/setup.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/../simd/platform.h \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec2.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/./compute_vector_relational.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_bool2_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_float2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_float2_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_double2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_double2_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_int2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_int2_sized.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/vector_int2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/scalar_int_sized.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_uint2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_uint2_sized.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/vector_uint2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/scalar_uint_sized.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/ext/vector_int2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/vec3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_bool3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec3.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/compute_vector_relational.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_bool3_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_float3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_float3_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_double3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_double3_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_int3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_int3_sized.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/vector_int3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_uint3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_uint3_sized.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/vector_uint3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/mat3x3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double3x3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat3x3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat3x3.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/../matrix.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/detail/qualifier.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/detail/setup.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/vec4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_bool4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec4.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_bool4_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_float4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_float4_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_double4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_double4_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_int4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_int4_sized.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/vector_int4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_uint4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/vector_uint4_sized.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/vector_uint4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/mat2x2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double2x2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat2x2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat2x2.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double2x2_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float2x2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float2x2_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/mat2x3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double2x3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat2x3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat2x3.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double2x3_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float2x3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float2x3_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/mat2x4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double2x4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat2x4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat2x4.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double2x4_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float2x4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float2x4_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/mat3x2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double3x2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat3x2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat3x2.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double3x2_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float3x2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float3x2_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/mat3x4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double3x4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat3x4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat3x4.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double3x4_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float3x4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float3x4_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/mat4x2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double4x2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat4x2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat4x2.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double4x2_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float4x2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float4x2_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/mat4x3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double4x3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat4x3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat4x3.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double4x3_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float4x3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float4x3_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/mat4x4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double4x4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat4x4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat4x4.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double4x4_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float4x4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float4x4_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/detail/func_matrix.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/../geometric.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/detail/type_vec3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/detail/func_geometric.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/../exponential.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/detail/type_vec1.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec1.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/detail/type_vec2.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/detail/type_vec4.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/detail/func_exponential.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/../vector_relational.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/detail/func_vector_relational.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/_vectorize.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/../common.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/detail/_fixes.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/detail/func_common.inl \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/compute_common.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec1.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double3x3_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float3x3.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float3x3_precision.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/../ext/project_path.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/../ext/stb_image/stb_image.h \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/physics_system.hpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/render_system.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/vec2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_bool2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/qualifier.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/setup.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/../simd/platform.h \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec2.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/./compute_vector_relational.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_bool2_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_float2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_float2_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_double2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_double2_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_int2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_int2_sized.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/vector_int2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/scalar_int_sized.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_uint2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_uint2_sized.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/vector_uint2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/scalar_uint_sized.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/ext/vector_int2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/vec3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_bool3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec3.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/compute_vector_relational.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_bool3_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_float3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_float3_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_double3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_double3_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_int3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_int3_sized.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/vector_int3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_uint3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_uint3_sized.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/vector_uint3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/mat3x3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double3x3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat3x3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat3x3.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/../matrix.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/detail/qualifier.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/detail/setup.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/vec4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_bool4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec4.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_bool4_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_float4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_float4_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_double4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_double4_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_int4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_int4_sized.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/vector_int4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_uint4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/vector_uint4_sized.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../ext/vector_uint4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/mat2x2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double2x2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat2x2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat2x2.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double2x2_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float2x2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float2x2_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/mat2x3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double2x3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat2x3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat2x3.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double2x3_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float2x3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float2x3_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/mat2x4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double2x4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat2x4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat2x4.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double2x4_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float2x4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float2x4_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/mat3x2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double3x2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat3x2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat3x2.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double3x2_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float3x2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float3x2_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/mat3x4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double3x4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat3x4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat3x4.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double3x4_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float3x4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float3x4_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/mat4x2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double4x2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat4x2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat4x2.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double4x2_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float4x2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float4x2_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/mat4x3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double4x3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat4x3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat4x3.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double4x3_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float4x3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float4x3_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/mat4x4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double4x4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat4x4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_mat4x4.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double4x4_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float4x4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float4x4_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/detail/func_matrix.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/../geometric.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/detail/type_vec3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/detail/func_geometric.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/../exponential.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/detail/type_vec1.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec1.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/detail/type_vec2.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/detail/type_vec4.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/detail/func_exponential.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/../vector_relational.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/detail/func_vector_relational.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/_vectorize.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/../common.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/detail/_fixes.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/detail/func_common.inl \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/compute_common.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/../detail/type_vec1.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_double3x3_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float3x3.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/ext/glm/glm/./ext/matrix_float3x3_precision.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/src/../ext/project_path.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/src/../ext/stb_image/stb_image.h \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/src/physics_system.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/src/render_system.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/world_system.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/src/world_system.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/random \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/numeric \
   /usr/local/include/SDL/SDL.h /usr/local/include/SDL/SDL_main.h \

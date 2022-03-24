@@ -13,8 +13,8 @@ vec2 distort(vec2 uv)
 	// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	// TODO A1: HANDLE THE WIND DISTORTION HERE (you may want to try sin/cos)
 	// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-	uv.x += 1.4*sin(time + uv.x) * 2/100;
-	uv.y += cos(time + uv.y) * 1/800;
+	// uv.x += 1.8*sin(time + uv.x) * 1/100;
+	// uv.y += cos(time + uv.y) * 1/800;
 	return uv;
 }
 

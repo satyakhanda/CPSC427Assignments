@@ -2624,7 +2624,8 @@ CMakeFiles/chicken.dir/src/physics_system.cpp.o: ../src/physics_system.cpp \
   ../src/tiny_ecs_registry.hpp \
   ../src/world_init.hpp \
   ../src/render_system.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  ../src/ai_system.hpp
 
 CMakeFiles/chicken.dir/src/render_system.cpp.o: ../src/render_system.cpp \
   ../src/render_system.hpp \

@@ -10,12 +10,15 @@
 #include <iostream>
 
 // Game configuration
-const size_t MAX_EAGLES = 15;
+// const size_t MAX_EAGLES = 15;
+const size_t MAX_EAGLES = 1;
 const size_t MAX_FALCONS = 15;
 const size_t MAX_BUG = 5;
 const size_t EAGLE_DELAY_MS = 2000 * 3;
-const size_t BUG_DELAY_MS = 5000 * 3;
+const size_t BUG_DELAY_MS = 2500 * 3;
 const float VELOCITY_FLAG = 200.f;
+
+Advanced advancedMode;
 
 bool lock = false;
 
@@ -147,7 +150,7 @@ bool WorldSystem::step(float elapsed_ms_since_last_update) {
 	// (the containers exchange the last element with the current)
 	for (int i = (int)motions_registry.components.size()-1; i>=0; --i) {
 	    Motion& motion = motions_registry.components[i];
-		if (motion.position.x + abs(motion.scale.x) < 0.f) {
+		if (motion.position.y + abs(motion.scale.y) > window_height_px + 10) {
 			if(!registry.players.has(motions_registry.entities[i])) // don't remove the player
 				registry.remove_all_components_of(motions_registry.entities[i]);
 		}
@@ -155,7 +158,7 @@ bool WorldSystem::step(float elapsed_ms_since_last_update) {
 
 	// Spawning new eagles
 	next_eagle_spawn -= elapsed_ms_since_last_update * current_speed;
-	if (registry.deadlys.components.size() <= MAX_EAGLES && next_eagle_spawn < 0.f) {
+	if (registry.deadlys.components.size() < MAX_EAGLES && next_eagle_spawn < 0.f) {
 		// Reset timer
 		next_eagle_spawn = (EAGLE_DELAY_MS / 2) + uniform_dist(rng) * (EAGLE_DELAY_MS / 2);
 		// Create eagle with random initial position
@@ -230,6 +233,11 @@ void WorldSystem::restart_game() {
 	while (registry.motions.entities.size() > 0)
 	    registry.remove_all_components_of(registry.motions.entities.back());
 
+	while (registry.advanced.entities.size() > 0)
+	    registry.remove_all_components_of(registry.advanced.entities.back());
+
+	
+
 	// Debugging for memory/component leaks
 	registry.list_all_components();
 
@@ -238,6 +246,8 @@ void WorldSystem::restart_game() {
 	registry.colors.insert(player_chicken, {1, 0.8f, 0.8f});
 	
 	lock = false;
+	auto adv = Entity();
+	registry.advanced.emplace(adv);
 
 	// !! TODO A3: Enable static eggs on the ground
 	// Create eggs on the floor for reference
@@ -292,6 +302,14 @@ void WorldSystem::handle_collisions() {
 					++points;
 					// !!! TODO A1: create a new struct called LightUp in components.hpp and add an instance to the chicken entity by modifying the ECS registry
 					registry.lightUp.emplace(entity);
+
+					if (registry.lightUp.has(entity)) {
+						LightUp light_counter = registry.lightUp.get(entity);
+						light_counter.counter_ms = 3000;
+					}
+					else {
+						registry.lightUp.emplace(entity);
+					}
 				}
 			}
 		}
@@ -369,6 +387,14 @@ void WorldSystem::on_key(int key, int, int action, int mod) {
 		else
 			debugging.in_debug_mode = true;
 	}
+
+	if (key == GLFW_KEY_A) {
+		if (action == GLFW_PRESS) {
+			registry.advanced.components[0].adv = !registry.advanced.components[0].adv;
+			printf("A%d\n", registry.advanced.components[0].adv);	
+		}
+	}
+
 
 	// Control the current speed with `<` `>`
 	if (action == GLFW_RELEASE && (mod & GLFW_MOD_SHIFT) && key == GLFW_KEY_COMMA) {

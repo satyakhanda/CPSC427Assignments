@@ -91,6 +91,17 @@ struct LightUp {
 	float counter_ms = 3000;
 };
 
+// AI
+struct AI {
+	bool been_inprox;
+	float frames_counter = 150;
+	float epsilon = 300.f;
+};
+
+struct Advanced {
+	bool adv = false;
+};
+
 
 /**
  * The following enumerators represent global identifiers refering to graphic

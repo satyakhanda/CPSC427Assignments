@@ -1,6 +1,6 @@
 CMakeFiles/chicken.dir/src/tiny_ecs.cpp.o: \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/tiny_ecs.cpp \
-  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/tiny_ecs.hpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/src/tiny_ecs.cpp \
+  /Users/satyakhanda/Desktop/University/Year\ 4/CPSC/427/Assignment/cpsc-427-dev/template/src/tiny_ecs.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \

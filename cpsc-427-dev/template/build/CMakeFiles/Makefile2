@@ -54,10 +54,10 @@ RM = /usr/local/Cellar/cmake/3.22.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template"
+CMAKE_SOURCE_DIR = "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build"
+CMAKE_BINARY_DIR = "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/chicken.dir/clean
 CMakeFiles/chicken.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chicken.dir/build.make CMakeFiles/chicken.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chicken.dir/build.make CMakeFiles/chicken.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target chicken"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target chicken"
 .PHONY : CMakeFiles/chicken.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/chicken.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" 12
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/chicken.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" 0
 .PHONY : CMakeFiles/chicken.dir/rule
 
 # Convenience name for target.

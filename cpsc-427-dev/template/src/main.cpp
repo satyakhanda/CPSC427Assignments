@@ -47,14 +47,20 @@ int main(int argc, char* argv[])
 			(float)(std::chrono::duration_cast<std::chrono::microseconds>(now - t)).count() / 1000;
 		t = now;
 
+		// float counter = 200.f;
+		// while (debugging.in_freeze_mode && counter > 0) {
+		// 	counter--;
+		// }
+		// debugging.in_freeze_mode = false;
+
 		world.step(elapsed_ms);
 		ai.step(elapsed_ms);
 		physics.step(elapsed_ms);
 		world.handle_collisions();
-
 		renderer.draw();
 
 		// TODO A2: you can implement the debug freeze here but other places are possible too.
+		
 	}
 
 	return EXIT_SUCCESS;

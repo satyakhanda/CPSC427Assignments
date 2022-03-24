@@ -40,7 +40,7 @@ Entity createBug(RenderSystem* renderer, vec2 position)
 	// Initialize the position, scale, and physics components
 	auto& motion = registry.motions.emplace(entity);
 	motion.angle = 0.f;
-	motion.velocity = { 0, 50 };
+	motion.velocity = { 50, 50 };
 	motion.position = position;
 
 	// Setting initial values, scale is negative to make it face the opposite way
@@ -48,6 +48,7 @@ Entity createBug(RenderSystem* renderer, vec2 position)
 
 	// Create an (empty) Bug component to be able to refer to all bug
 	registry.eatables.emplace(entity);
+	registry.ai.emplace(entity);
 	registry.renderRequests.insert(
 		entity,
 		{ TEXTURE_ASSET_ID::BUG,

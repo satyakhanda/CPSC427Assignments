@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.22.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template"
+CMAKE_SOURCE_DIR = "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build"
+CMAKE_BINARY_DIR = "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/chicken.dir/depend.make
@@ -72,156 +72,156 @@ include CMakeFiles/chicken.dir/flags.make
 CMakeFiles/chicken.dir/src/ai_system.cpp.o: CMakeFiles/chicken.dir/flags.make
 CMakeFiles/chicken.dir/src/ai_system.cpp.o: ../src/ai_system.cpp
 CMakeFiles/chicken.dir/src/ai_system.cpp.o: CMakeFiles/chicken.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chicken.dir/src/ai_system.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/ai_system.cpp.o -MF CMakeFiles/chicken.dir/src/ai_system.cpp.o.d -o CMakeFiles/chicken.dir/src/ai_system.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/ai_system.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/chicken.dir/src/ai_system.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/ai_system.cpp.o -MF CMakeFiles/chicken.dir/src/ai_system.cpp.o.d -o CMakeFiles/chicken.dir/src/ai_system.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/ai_system.cpp"
 
 CMakeFiles/chicken.dir/src/ai_system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chicken.dir/src/ai_system.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/ai_system.cpp" > CMakeFiles/chicken.dir/src/ai_system.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/ai_system.cpp" > CMakeFiles/chicken.dir/src/ai_system.cpp.i
 
 CMakeFiles/chicken.dir/src/ai_system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chicken.dir/src/ai_system.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/ai_system.cpp" -o CMakeFiles/chicken.dir/src/ai_system.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/ai_system.cpp" -o CMakeFiles/chicken.dir/src/ai_system.cpp.s
 
 CMakeFiles/chicken.dir/src/common.cpp.o: CMakeFiles/chicken.dir/flags.make
 CMakeFiles/chicken.dir/src/common.cpp.o: ../src/common.cpp
 CMakeFiles/chicken.dir/src/common.cpp.o: CMakeFiles/chicken.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/chicken.dir/src/common.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/common.cpp.o -MF CMakeFiles/chicken.dir/src/common.cpp.o.d -o CMakeFiles/chicken.dir/src/common.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/common.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/chicken.dir/src/common.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/common.cpp.o -MF CMakeFiles/chicken.dir/src/common.cpp.o.d -o CMakeFiles/chicken.dir/src/common.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/common.cpp"
 
 CMakeFiles/chicken.dir/src/common.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chicken.dir/src/common.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/common.cpp" > CMakeFiles/chicken.dir/src/common.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/common.cpp" > CMakeFiles/chicken.dir/src/common.cpp.i
 
 CMakeFiles/chicken.dir/src/common.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chicken.dir/src/common.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/common.cpp" -o CMakeFiles/chicken.dir/src/common.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/common.cpp" -o CMakeFiles/chicken.dir/src/common.cpp.s
 
 CMakeFiles/chicken.dir/src/components.cpp.o: CMakeFiles/chicken.dir/flags.make
 CMakeFiles/chicken.dir/src/components.cpp.o: ../src/components.cpp
 CMakeFiles/chicken.dir/src/components.cpp.o: CMakeFiles/chicken.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/chicken.dir/src/components.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/components.cpp.o -MF CMakeFiles/chicken.dir/src/components.cpp.o.d -o CMakeFiles/chicken.dir/src/components.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/components.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/chicken.dir/src/components.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/components.cpp.o -MF CMakeFiles/chicken.dir/src/components.cpp.o.d -o CMakeFiles/chicken.dir/src/components.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/components.cpp"
 
 CMakeFiles/chicken.dir/src/components.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chicken.dir/src/components.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/components.cpp" > CMakeFiles/chicken.dir/src/components.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/components.cpp" > CMakeFiles/chicken.dir/src/components.cpp.i
 
 CMakeFiles/chicken.dir/src/components.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chicken.dir/src/components.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/components.cpp" -o CMakeFiles/chicken.dir/src/components.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/components.cpp" -o CMakeFiles/chicken.dir/src/components.cpp.s
 
 CMakeFiles/chicken.dir/src/main.cpp.o: CMakeFiles/chicken.dir/flags.make
 CMakeFiles/chicken.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/chicken.dir/src/main.cpp.o: CMakeFiles/chicken.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/chicken.dir/src/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/main.cpp.o -MF CMakeFiles/chicken.dir/src/main.cpp.o.d -o CMakeFiles/chicken.dir/src/main.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/chicken.dir/src/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/main.cpp.o -MF CMakeFiles/chicken.dir/src/main.cpp.o.d -o CMakeFiles/chicken.dir/src/main.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/main.cpp"
 
 CMakeFiles/chicken.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chicken.dir/src/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/main.cpp" > CMakeFiles/chicken.dir/src/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/main.cpp" > CMakeFiles/chicken.dir/src/main.cpp.i
 
 CMakeFiles/chicken.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chicken.dir/src/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/main.cpp" -o CMakeFiles/chicken.dir/src/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/main.cpp" -o CMakeFiles/chicken.dir/src/main.cpp.s
 
 CMakeFiles/chicken.dir/src/physics_system.cpp.o: CMakeFiles/chicken.dir/flags.make
 CMakeFiles/chicken.dir/src/physics_system.cpp.o: ../src/physics_system.cpp
 CMakeFiles/chicken.dir/src/physics_system.cpp.o: CMakeFiles/chicken.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/chicken.dir/src/physics_system.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/physics_system.cpp.o -MF CMakeFiles/chicken.dir/src/physics_system.cpp.o.d -o CMakeFiles/chicken.dir/src/physics_system.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/physics_system.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/chicken.dir/src/physics_system.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/physics_system.cpp.o -MF CMakeFiles/chicken.dir/src/physics_system.cpp.o.d -o CMakeFiles/chicken.dir/src/physics_system.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/physics_system.cpp"
 
 CMakeFiles/chicken.dir/src/physics_system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chicken.dir/src/physics_system.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/physics_system.cpp" > CMakeFiles/chicken.dir/src/physics_system.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/physics_system.cpp" > CMakeFiles/chicken.dir/src/physics_system.cpp.i
 
 CMakeFiles/chicken.dir/src/physics_system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chicken.dir/src/physics_system.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/physics_system.cpp" -o CMakeFiles/chicken.dir/src/physics_system.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/physics_system.cpp" -o CMakeFiles/chicken.dir/src/physics_system.cpp.s
 
 CMakeFiles/chicken.dir/src/render_system.cpp.o: CMakeFiles/chicken.dir/flags.make
 CMakeFiles/chicken.dir/src/render_system.cpp.o: ../src/render_system.cpp
 CMakeFiles/chicken.dir/src/render_system.cpp.o: CMakeFiles/chicken.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chicken.dir/src/render_system.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/render_system.cpp.o -MF CMakeFiles/chicken.dir/src/render_system.cpp.o.d -o CMakeFiles/chicken.dir/src/render_system.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/render_system.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chicken.dir/src/render_system.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/render_system.cpp.o -MF CMakeFiles/chicken.dir/src/render_system.cpp.o.d -o CMakeFiles/chicken.dir/src/render_system.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/render_system.cpp"
 
 CMakeFiles/chicken.dir/src/render_system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chicken.dir/src/render_system.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/render_system.cpp" > CMakeFiles/chicken.dir/src/render_system.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/render_system.cpp" > CMakeFiles/chicken.dir/src/render_system.cpp.i
 
 CMakeFiles/chicken.dir/src/render_system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chicken.dir/src/render_system.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/render_system.cpp" -o CMakeFiles/chicken.dir/src/render_system.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/render_system.cpp" -o CMakeFiles/chicken.dir/src/render_system.cpp.s
 
 CMakeFiles/chicken.dir/src/render_system_init.cpp.o: CMakeFiles/chicken.dir/flags.make
 CMakeFiles/chicken.dir/src/render_system_init.cpp.o: ../src/render_system_init.cpp
 CMakeFiles/chicken.dir/src/render_system_init.cpp.o: CMakeFiles/chicken.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/chicken.dir/src/render_system_init.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/render_system_init.cpp.o -MF CMakeFiles/chicken.dir/src/render_system_init.cpp.o.d -o CMakeFiles/chicken.dir/src/render_system_init.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/render_system_init.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/chicken.dir/src/render_system_init.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/render_system_init.cpp.o -MF CMakeFiles/chicken.dir/src/render_system_init.cpp.o.d -o CMakeFiles/chicken.dir/src/render_system_init.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/render_system_init.cpp"
 
 CMakeFiles/chicken.dir/src/render_system_init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chicken.dir/src/render_system_init.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/render_system_init.cpp" > CMakeFiles/chicken.dir/src/render_system_init.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/render_system_init.cpp" > CMakeFiles/chicken.dir/src/render_system_init.cpp.i
 
 CMakeFiles/chicken.dir/src/render_system_init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chicken.dir/src/render_system_init.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/render_system_init.cpp" -o CMakeFiles/chicken.dir/src/render_system_init.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/render_system_init.cpp" -o CMakeFiles/chicken.dir/src/render_system_init.cpp.s
 
 CMakeFiles/chicken.dir/src/tiny_ecs.cpp.o: CMakeFiles/chicken.dir/flags.make
 CMakeFiles/chicken.dir/src/tiny_ecs.cpp.o: ../src/tiny_ecs.cpp
 CMakeFiles/chicken.dir/src/tiny_ecs.cpp.o: CMakeFiles/chicken.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/chicken.dir/src/tiny_ecs.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/tiny_ecs.cpp.o -MF CMakeFiles/chicken.dir/src/tiny_ecs.cpp.o.d -o CMakeFiles/chicken.dir/src/tiny_ecs.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/tiny_ecs.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/chicken.dir/src/tiny_ecs.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/tiny_ecs.cpp.o -MF CMakeFiles/chicken.dir/src/tiny_ecs.cpp.o.d -o CMakeFiles/chicken.dir/src/tiny_ecs.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/tiny_ecs.cpp"
 
 CMakeFiles/chicken.dir/src/tiny_ecs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chicken.dir/src/tiny_ecs.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/tiny_ecs.cpp" > CMakeFiles/chicken.dir/src/tiny_ecs.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/tiny_ecs.cpp" > CMakeFiles/chicken.dir/src/tiny_ecs.cpp.i
 
 CMakeFiles/chicken.dir/src/tiny_ecs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chicken.dir/src/tiny_ecs.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/tiny_ecs.cpp" -o CMakeFiles/chicken.dir/src/tiny_ecs.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/tiny_ecs.cpp" -o CMakeFiles/chicken.dir/src/tiny_ecs.cpp.s
 
 CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.o: CMakeFiles/chicken.dir/flags.make
 CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.o: ../src/tiny_ecs_registry.cpp
 CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.o: CMakeFiles/chicken.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.o -MF CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.o.d -o CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/tiny_ecs_registry.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.o -MF CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.o.d -o CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/tiny_ecs_registry.cpp"
 
 CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/tiny_ecs_registry.cpp" > CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/tiny_ecs_registry.cpp" > CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.i
 
 CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/tiny_ecs_registry.cpp" -o CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/tiny_ecs_registry.cpp" -o CMakeFiles/chicken.dir/src/tiny_ecs_registry.cpp.s
 
 CMakeFiles/chicken.dir/src/world_init.cpp.o: CMakeFiles/chicken.dir/flags.make
 CMakeFiles/chicken.dir/src/world_init.cpp.o: ../src/world_init.cpp
 CMakeFiles/chicken.dir/src/world_init.cpp.o: CMakeFiles/chicken.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/chicken.dir/src/world_init.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/world_init.cpp.o -MF CMakeFiles/chicken.dir/src/world_init.cpp.o.d -o CMakeFiles/chicken.dir/src/world_init.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/world_init.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/chicken.dir/src/world_init.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/world_init.cpp.o -MF CMakeFiles/chicken.dir/src/world_init.cpp.o.d -o CMakeFiles/chicken.dir/src/world_init.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/world_init.cpp"
 
 CMakeFiles/chicken.dir/src/world_init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chicken.dir/src/world_init.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/world_init.cpp" > CMakeFiles/chicken.dir/src/world_init.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/world_init.cpp" > CMakeFiles/chicken.dir/src/world_init.cpp.i
 
 CMakeFiles/chicken.dir/src/world_init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chicken.dir/src/world_init.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/world_init.cpp" -o CMakeFiles/chicken.dir/src/world_init.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/world_init.cpp" -o CMakeFiles/chicken.dir/src/world_init.cpp.s
 
 CMakeFiles/chicken.dir/src/world_system.cpp.o: CMakeFiles/chicken.dir/flags.make
 CMakeFiles/chicken.dir/src/world_system.cpp.o: ../src/world_system.cpp
 CMakeFiles/chicken.dir/src/world_system.cpp.o: CMakeFiles/chicken.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/chicken.dir/src/world_system.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/world_system.cpp.o -MF CMakeFiles/chicken.dir/src/world_system.cpp.o.d -o CMakeFiles/chicken.dir/src/world_system.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/world_system.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/chicken.dir/src/world_system.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chicken.dir/src/world_system.cpp.o -MF CMakeFiles/chicken.dir/src/world_system.cpp.o.d -o CMakeFiles/chicken.dir/src/world_system.cpp.o -c "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/world_system.cpp"
 
 CMakeFiles/chicken.dir/src/world_system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chicken.dir/src/world_system.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/world_system.cpp" > CMakeFiles/chicken.dir/src/world_system.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/world_system.cpp" > CMakeFiles/chicken.dir/src/world_system.cpp.i
 
 CMakeFiles/chicken.dir/src/world_system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chicken.dir/src/world_system.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/src/world_system.cpp" -o CMakeFiles/chicken.dir/src/world_system.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/src/world_system.cpp" -o CMakeFiles/chicken.dir/src/world_system.cpp.s
 
 # Object files for target chicken
 chicken_OBJECTS = \
@@ -253,7 +253,7 @@ chicken: CMakeFiles/chicken.dir/src/world_init.cpp.o
 chicken: CMakeFiles/chicken.dir/src/world_system.cpp.o
 chicken: CMakeFiles/chicken.dir/build.make
 chicken: CMakeFiles/chicken.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable chicken"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable chicken"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chicken.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -265,6 +265,6 @@ CMakeFiles/chicken.dir/clean:
 .PHONY : CMakeFiles/chicken.dir/clean
 
 CMakeFiles/chicken.dir/depend:
-	cd "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template" "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template" "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build" "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build" "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/A1_A3_student_template/cpsc-427-dev/template/build/CMakeFiles/chicken.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template" "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template" "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build" "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build" "/Users/satyakhanda/Desktop/University/Year 4/CPSC/427/Assignment/cpsc-427-dev/template/build/CMakeFiles/chicken.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/chicken.dir/depend
 
